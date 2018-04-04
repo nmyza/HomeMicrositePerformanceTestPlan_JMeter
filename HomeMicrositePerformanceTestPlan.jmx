@@ -20,7 +20,7 @@
           </elementProp>
           <elementProp name="BASE_URL" elementType="Argument">
             <stringProp name="Argument.name">BASE_URL</stringProp>
-            <stringProp name="Argument.value">${__P(BASE_URL,web-qa-blue.corp.cdw.com)}</stringProp>
+            <stringProp name="Argument.value">${__P(BASE_URL,[AUT_NAME])}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
@@ -30,22 +30,22 @@
           </elementProp>
           <elementProp name="THREADS" elementType="Argument">
             <stringProp name="Argument.name">THREADS</stringProp>
-            <stringProp name="Argument.value">${__P(THREADS,10)}</stringProp>
+            <stringProp name="Argument.value">${__P(THREADS,[TREADS])}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RAMPUP" elementType="Argument">
             <stringProp name="Argument.name">RAMPUP</stringProp>
-            <stringProp name="Argument.value">${__P(RAMPUP,500)}</stringProp>
+            <stringProp name="Argument.value">${__P(RAMPUP,[RAMPUP])}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="LOOP" elementType="Argument">
             <stringProp name="Argument.name">LOOP</stringProp>
-            <stringProp name="Argument.value">${__P(LOOP,100)}</stringProp>
+            <stringProp name="Argument.value">${__P(LOOP,[LOOP])}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="USER_AGENT" elementType="Argument">
             <stringProp name="Argument.name">USER_AGENT</stringProp>
-            <stringProp name="Argument.value">${__P(USER_AGENT,JMeter-Home)}</stringProp>
+            <stringProp name="Argument.value">${__P(USER_AGENT,[USER_AGENT])}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="RESULTS_FILE" elementType="Argument">
